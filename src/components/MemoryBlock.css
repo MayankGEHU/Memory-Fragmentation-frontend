@@ -1,0 +1,20 @@
+.memory-block {
+  display: inline-block;
+  margin: 2px;
+  text-align: center;
+}
+
+.block-content {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: 1px solid #999;
+  position: relative;
+}
+
+.label {
+  font-size: 12px;
+  padding: 2px;
+}

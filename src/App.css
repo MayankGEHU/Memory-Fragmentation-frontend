@@ -1,0 +1,258 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-container {
+  width: 90%;
+}
+
+.heading-container h2 {
+  font-size: 8vw;
+  margin-bottom: 5vw;
+}
+
+.heading-container p {
+  font-size: clamp(20px, 3vw, 25px);
+  margin-bottom: 15vw;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  flex: 1 1 150px;
+  min-width: 120px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+
+.memory-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.block-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memory-block {
+  width: clamp(70px, 20vw, 100px);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  border-radius: 6px;
+  font-size: clamp(12px, 2vw, 14px);
+  font-weight: bold;
+}
+
+.memory-block.allocated {
+  background-color: #52796f;
+  color: white;
+  border-radius: 7px;
+}
+
+.memory-block.internal {
+  background-color: #f9dc5c;
+  color: black;
+  border-radius: 7px;
+}
+
+.memory-block.free {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.page-table {
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.page-table table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  border-radius: 7px;
+}
+
+.page-table th,
+.page-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.process-list{
+  margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+.page-table th {
+  background-color: #f0f0f0;
+}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  .heading-container h2 {
+    font-size: 6vw;
+  }
+
+  .heading-container p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .memory-block {
+    width: 60px;
+    height: 35px;
+  }
+
+  .page-table table {
+    font-size: 12px;
+  }
+}
+.highlight {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.highlight::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0.1em;
+  width: 100%;
+  height: 1em;
+  background: linear-gradient(90deg, #f9dc5c, #FFC107); /* Orange to yellow gradient */
+  border-radius: 0.1em;
+  z-index: -1;
+}
+
+.scroll-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Arial', sans-serif;
+  color: black;
+  user-select: none;
+  cursor: pointer;
+  margin-bottom: 7vw;
+}
+
+.mouse {
+  width: 40px;
+  height: 70px;
+  border: 2px solid #354f52;
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.scroll-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ee4266;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scrollAnim 1.5s infinite;
+}
+
+.scroll-text {
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+@keyframes scrollAnim {
+  0% {
+    top: 15px;
+    opacity: 1;
+  }
+  50% {
+    top: 40px;
+    opacity: 0;
+  }
+  100% {
+    top: 15px;
+    opacity: 1;
+  }
+}
+
+
+.details-about-Visualizer {
+  height: 50vh;
+  width: 98vw;
+  background-color: #eff2f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 4vw;
+}
+.text-container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80vw;
+}
+
+.details-about-Visualizer p {
+  font-size: 2vw;
+  margin: 0;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .details-about-Visualizer {
+    height: 25vh;
+    width: 95vw;
+    padding: 0.8rem;
+  }
+  .details-about-Visualizer p {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-about-Visualizer {
+    height: auto; 
+    width: 95vw;
+    padding: 1rem;
+  }
+  .details-about-Visualizer p {
+    font-size: 5vw;
+  }
+}
