@@ -1,0 +1,49 @@
+.text-lottie-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lottie-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px; /* increased max-width */
+}
+
+.lottie-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.text-container {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+}
+
+.text-container .pera {
+  font-size: 1.1rem;
+font-family: "filson-soft", "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .text-lottie-wrapper {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .text-container .pera {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

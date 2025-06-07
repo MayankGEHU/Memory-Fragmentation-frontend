@@ -1,0 +1,99 @@
+.algorithm-use-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.algorithm-header {
+  border-left: 6px solid #ff0080;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.algorithm-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  line-height: 1.3;
+  color: #111;
+  margin: 0;
+  text-align: left;
+}
+
+.highlight-algo {
+  color: #ff0080;
+}
+
+.algorithm-description {
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 400;
+  text-align: justify;
+  width: 85%;
+  margin-left: 54px;
+}
+
+.algorithm-description ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.algorithm-description li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .algorithm-header h2 {
+    font-size: 2rem;
+  }
+
+  .algorithm-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .algorithm-use-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .algorithm-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .algorithm-description {
+    font-size: 0.95rem;
+  }
+}
+
+
+.project-requirements {
+  margin-top: 2rem;
+}
+
+.project-requirements h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+}
+
+.project-requirements p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-family: "Lato", sans-serif;
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  .project-requirements h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-requirements p {
+    font-size: 1rem;
+  }
+}
