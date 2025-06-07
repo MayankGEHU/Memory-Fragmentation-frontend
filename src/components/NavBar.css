@@ -1,0 +1,38 @@
+.nav-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999; /* ensures it stays above other elements */
+
+  display: flex;
+  justify-content: center;
+  background-color: #22223b;
+  padding: 10px 20px;
+  border-radius: 40px;
+  gap: 20px;
+  width: fit-content;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-item:hover {
+  background-color: #e5e5e5;
+  font-weight: bold;
+}
+
+.active-tab {
+  background-color: #ff0080;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
