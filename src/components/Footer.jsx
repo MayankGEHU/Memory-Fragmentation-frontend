@@ -1,43 +1,41 @@
 import React from "react";
 import "./Footer.css";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaInstagram,
-  FaWhatsapp,
-  FaEnvelope,
-} from "react-icons/fa";
+// import {
+//   FaFacebookF,
+//   FaLinkedinIn,
+//   FaTwitter,
+//   FaInstagram,
+//   FaWhatsapp,
+//   FaEnvelope,
+// } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="newsletter-section">
-        <h3>BE THE FIRST TO KNOW</h3>
-        <p>
-          Get all the latest information on services, events, jobs and fairs.
-          Sign up for our newsletter today.
+        <h3>Memory Fragmentation Visualizer</h3>
+        {/* <p>
+Always open to tech-related conversations and collaborations — feel free to reach out!
         </p>
         <div className="newsletter-input">
           <input type="email" placeholder="Email Address" />
           <button>➤</button>
-        </div>
-        <div className="social-icons">
+        </div> */}
+        {/* <div className="social-icons">
           <FaFacebookF />
           <FaLinkedinIn />
           <FaTwitter />
           <FaInstagram />
           <FaWhatsapp />
           <FaEnvelope />
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-content">
         <div className="footer-col about">
           <img src="/logo.png" alt="logo" />
           <p>
-            Your one-stop career platform to find Jobs, Internships,
-            Professional Trainings, Projects, and Volunteering Opportunities.
+            Gain real-time insight into memory allocation, usage, and fragmentation with the Memory Fragmentation Visualizer.
           </p>
         </div>
 
@@ -45,15 +43,11 @@ const Footer = () => {
           <h4>QUICK LINKS</h4>
           <ul>
             <li>Home</li>
-            <li>About us</li>
-            <li>Partners</li>
-            <li>Contact Us</li>
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
-            <li>Sitemap</li>
           </ul>
         </div>
-
+{/* 
         <div className="footer-col">
           <h4>OUR SERVICES</h4>
           <ul>
@@ -63,20 +57,20 @@ const Footer = () => {
             <li>Curated Library</li>
             <li>Campus Ambassadors</li>
           </ul>
-        </div>
+        </div> */}
 
-        <div className="footer-col">
+        {/* <div className="footer-col">
           <h4>EVENTS</h4>
           <ul>
             <li>Events</li>
             <li>Jobs & Internship Fair 2025</li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} | All Rights Reserved by Your Company.
+          © {new Date().getFullYear()} | Memory Fragmentation Visualizer | By Mayank Singh.
         </p>
       </div>
     </footer>

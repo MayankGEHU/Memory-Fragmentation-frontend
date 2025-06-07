@@ -1,9 +1,13 @@
 .footer {
-  background-color: #2d2d2d;
+  background-color: #22223b;
   color: #fff;
-  /* padding: 40px 20px; */
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;   
+  padding: 0;     
+       margin-bottom: -21px;
+       width: 98.97vw;
+       margin-top: 70px;
 }
+
 
 .newsletter-section {
   text-align: center;
@@ -96,10 +100,9 @@
   text-align: center;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #aaa;
+  color: white;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .newsletter-input {
     flex-direction: column;

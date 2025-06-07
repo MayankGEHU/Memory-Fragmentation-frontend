@@ -12,7 +12,7 @@
 .lottie-container {
   flex: 1;
   min-width: 300px;
-  max-width: 600px; /* increased max-width */
+  max-width: 600px; 
 }
 
 .lottie-container canvas {

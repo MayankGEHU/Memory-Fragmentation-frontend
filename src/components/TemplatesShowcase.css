@@ -1,0 +1,138 @@
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.tag-memory { background-color: #d2691e5c; color: #d2691e; border: 1px solid #d2691e}
+.tag-os { background-color: #1db9544b;  color: #1db954;border: 1px solid #1db954}
+.tag-first-fit { background-color: #d2691e; }
+.tag-best-fit  { background-color: #0a84ff; }
+.tag-worst-fit  { background-color: #9b59b6; }
+.tag-saas { background-color: #006400; }
+.tag-multi-tenant-app { background-color: #ff9900; }
+
+.template-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 1rem 0 0.5rem;
+}
+
+.template-subheading {
+  color: #aaa;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.deploy-button {
+  padding: 12px 24px;
+  background-color: #ff0080;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.3s ease;
+}
+
+.deploy-button:hover {
+  transform: scale(1.05);
+}
+
+.template-cards {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+}
+
+.template-container {
+  /* background-color: #30334c; */
+  background-color: #22223b;
+  color: #fff;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  max-width: 1200px;
+  width: 90vw;
+  margin: 1rem auto 100px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .template-container {
+    padding: 3rem 1.5rem;
+    max-width: 81vw;
+  }
+
+  .template-heading {
+    font-size: 2.2rem;
+  }
+
+  .template-subheading {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .deploy-button {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .template-cards {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .tags {
+    gap: 8px;
+  }
+
+  .tag {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+
+  .template-heading {
+    font-size: 1.8rem;
+  }
+
+  .template-subheading {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .deploy-button {
+    font-size: 14px;
+    padding: 9px 18px;
+  }
+
+  .template-container {
+    padding: 2rem 1rem;
+    width: 83vw;
+  }
+
+  .template-cards {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+}
