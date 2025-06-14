@@ -10,15 +10,18 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ```bash
 # Clone this repository
 $ git clone https://github.com/MayankGEHU/MultiLang-Compiler.git
-
+```
 # Go into the repository
+```bash
 $ cd frontend
 $ cd backend
-
+```
 # Install dependencies
+```bash
 $ npm install
-
+```
 # Run the app
+```bash
 $ npm start
 ```
 
