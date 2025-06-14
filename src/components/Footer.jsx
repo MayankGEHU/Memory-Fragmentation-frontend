@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import logo from '../assets/logo.png'
 // import {
 //   FaFacebookF,
 //   FaLinkedinIn,
@@ -33,7 +34,7 @@ Always open to tech-related conversations and collaborations — feel free to re
 
       <div className="footer-content">
         <div className="footer-col about">
-          <img src="/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
           <p>
             Gain real-time insight into memory allocation, usage, and fragmentation with the Memory Fragmentation Visualizer.
           </p>
@@ -47,25 +48,6 @@ Always open to tech-related conversations and collaborations — feel free to re
             <li>Privacy Policy</li>
           </ul>
         </div>
-{/* 
-        <div className="footer-col">
-          <h4>OUR SERVICES</h4>
-          <ul>
-            <li>Fresher Jobs</li>
-            <li>Internships & Projects</li>
-            <li>Resume Writing Services</li>
-            <li>Curated Library</li>
-            <li>Campus Ambassadors</li>
-          </ul>
-        </div> */}
-
-        {/* <div className="footer-col">
-          <h4>EVENTS</h4>
-          <ul>
-            <li>Events</li>
-            <li>Jobs & Internship Fair 2025</li>
-          </ul>
-        </div> */}
       </div>
 
       <div className="footer-bottom">

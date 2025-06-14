@@ -67,7 +67,7 @@ function MemoryPage() {
   return (
     <div className="memory-page">
       <div className="heading-container">
-        <h1>Explore System Memory: Allocated, Free, and Fragmented Blocks</h1>
+      <h1 style={{ marginTop: '153px' }}>Explore System Memory: Allocated, Free, and Fragmented Blocks</h1>
       </div>
 
       <ControlsPanel

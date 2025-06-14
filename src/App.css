@@ -17,8 +17,8 @@
 
 .heading-container h2 {
   font-size: 9vw;
-      font-family: "filson-soft", "Lato", Arial, Helvetica, sans-serif;
-    font-weight: bold;
+  font-family: "filson-soft", "Lato", Arial, Helvetica, sans-serif;
+   font-weight: bold;
   margin-bottom: 6vw;
   font-weight: 800;
   margin-top: 0px;
@@ -30,7 +30,7 @@
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
-}
+}k
 
 .controls input,
 .controls select,
@@ -163,7 +163,6 @@
   font-family: 'Arial', sans-serif;
   color: black;
   user-select: none;
-  cursor: pointer;
   margin-bottom: 7vw;
   margin-top: -13px;
 }

@@ -16,10 +16,10 @@
 
 .tag-memory { background-color: #d2691e5c; color: #d2691e; border: 1px solid #d2691e}
 .tag-os { background-color: #1db9544b;  color: #1db954;border: 1px solid #1db954}
-.tag-first-fit { background-color: #d2691e; }
-.tag-best-fit  { background-color: #0a84ff; }
-.tag-worst-fit  { background-color: #9b59b6; }
-.tag-saas { background-color: #006400; }
+.tag-first-fit { background-color: #a2d2ff4c; border: 1px solid #a2d2ff }
+.tag-best-fit  { background-color: #0a84ff54; border: 1px solid #0a84ff }
+.tag-worst-fit  { background-color: #9c59b658; border: 1px solid #9b59b6 }
+.tag-saas { background-color: #a2d2ff8e; border: 1px solid #a2d2ff }
 .tag-multi-tenant-app { background-color: #ff9900; }
 
 .template-heading {
@@ -39,7 +39,7 @@
   background-color: #ff0080;
   color: #000;
   border: none;
-  border-radius: 10px;
+  border-radius: 27px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
