@@ -42,7 +42,18 @@
   border-radius: 7px;
   border: 1px solid black;
 }
+.controls select,
+.controls button {
+  cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
 
+.controls select:hover,
+.controls button:hover {
+  background-color: #22223b3b;
+  border-color: #333;
+  cursor: pointer;
+}
 .memory-container {
   display: flex;
   flex-wrap: wrap;
