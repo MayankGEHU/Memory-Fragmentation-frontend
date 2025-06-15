@@ -9,7 +9,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 Clone this repository
-git clone https://github.com/MayankGEHU/MultiLang-Compiler.git
+https://github.com/MayankGEHU/Memory-Fragmentation-frontend.git
 ```
 # Go into the repository
 ```bash
