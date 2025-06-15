@@ -5,14 +5,14 @@ import AlgorithmUse from "./components/AlgorithmUse";
 import TemplatesShowcase from "./components/TemplatesShowcas";
 import Footer from "./components/Footer";
 import MemoryPage from "./pages/MemoryPage";
-import NavBar from "./components/NavBar"; // ✅ Add this
+import NavBar from "./components/NavBar"; 
 import "./App.css";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar /> {/* ✅ Add this here */}
+        <NavBar /> 
 
         <Routes>
           <Route

@@ -32,7 +32,7 @@ function MemoryPage() {
       const newProcess = { pid, size };
 
       try {
-        await axios.post("http://127.0.0.1:5000/api/add_process", newProcess);
+        await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/add_process`, newProcess);
       } catch (error) {
         console.error("Error adding process:", error);
       }
@@ -56,7 +56,7 @@ function MemoryPage() {
     }));
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/api/allocate_memory", allocationData);
+      const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/allocate_memory`, allocationData);
       setMemoryBlocks(response.data.memoryBlocks);
       setAllocationInfo(response.data.allocationInfo);
     } catch (error) {
