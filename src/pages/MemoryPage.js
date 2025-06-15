@@ -17,7 +17,6 @@ function MemoryPage() {
     { size: 800, allocated: null },
     { size: 900, allocated: null },
     { size: 1000, allocated: null },
-    { size: 2000, allocated: null },
   ]);
 
   const [processes, setProcesses] = useState([]);
