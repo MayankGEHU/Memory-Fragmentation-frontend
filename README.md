@@ -5,19 +5,19 @@ It helps developers and learners understand how memory usage evolves over time a
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### 🔹 Frontend
+## 🔹 Frontend
 - React.js
 
-### 🔹 Backend
+## 🔹 Backend
 - Python
 - Flask
 - Flask-CORS
 
 ---
 
-## 🚀 How To Use
+# 🚀 How To Use
 
 To run this application locally, ensure you have the following installed:
 
@@ -25,9 +25,9 @@ To run this application locally, ensure you have the following installed:
 - [Node.js](https://nodejs.org/en/download/)
 - [Python](https://www.python.org/downloads/)
 
-### 🔧 Steps
-# Go into the repository
-Clone this repository
+# 🔧 Steps
+## Go into the repository
+### Clone this repository
 ```bash
 https://github.com/MayankGEHU/Memory-Fragmentation-frontend.git
 ```
@@ -35,13 +35,13 @@ https://github.com/MayankGEHU/Memory-Fragmentation-frontend.git
 cd frontend
 cd backend
 ```
-# Install dependencies
+## Install dependencies
 ```bash
 npm install
 ```
-# Run the app
+## Run the app
 ```bash
 npm start
 ```
-## 👨‍💻 Develop By
-# Mayank Singh
+# 👨‍💻 Develop By
+## Mayank Singh
