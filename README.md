@@ -26,11 +26,11 @@ To run this application locally, ensure you have the following installed:
 - [Python](https://www.python.org/downloads/)
 
 ### 🔧 Steps
-```bash
+# Go into the repository
 Clone this repository
+```bash
 https://github.com/MayankGEHU/Memory-Fragmentation-frontend.git
 ```
-# Go into the repository
 ```bash
 cd frontend
 cd backend
