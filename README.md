@@ -2,6 +2,17 @@
 
 This project is a visualization tool that simulates and displays memory fragmentation. It helps developers and learners understand how memory allocation and deallocation can affect memory fragmentation over time.
 
+
+### 🛠️ Tech Stack
+
+🔹 Frontend (React)
+React.js
+
+🔹 Backend (Python)
+Flask
+Flask-CORS
+
+
 ---
 ## How To Use
 
