@@ -43,5 +43,5 @@ npm install
 ```bash
 npm start
 ```
-##👨‍💻 Develop By
-Mayank Singh
+## 👨‍💻 Develop By
+# Mayank Singh
