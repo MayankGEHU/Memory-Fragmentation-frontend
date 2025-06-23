@@ -26,20 +26,6 @@ To run this application locally, ensure you have the following installed:
 - [Python](https://www.python.org/downloads/)
 
 ### 🔧 Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/MayankGEHU/Memory-Fragmentation-frontend.git
-
-# Navigate into the project directory
-cd Memory-Fragmentation-frontend
-
-
----
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/). From your command line:
-
 ```bash
 Clone this repository
 https://github.com/MayankGEHU/Memory-Fragmentation-frontend.git
