@@ -3,7 +3,9 @@ import ControlsPanel from "../components/ControlsPanel";
 import ProcessList from "../components/ProcessList";
 import MemoryVisualizer from "../components/MemoryVisualizer";
 import PageTable from "../components/PageTable";
+import freg from "../assets/meoryfreg.png"
 import axios from "axios";
+
 
 function MemoryPage() {
   const [memoryBlocks, setMemoryBlocks] = useState([
@@ -65,6 +67,15 @@ function MemoryPage() {
 
   return (
     <div className="memory-page">
+<div className="memory-page-image-container">
+  <img
+    src={freg}
+    alt="Memory Fragmentation Steps"
+    className="memory-flowchart"
+  />
+</div>
+
+
       <div className="heading-container">
       <h1 style={{ marginTop: '153px' }}>Explore System Memory: Allocated, Free, and Fragmented Blocks</h1>
       </div>

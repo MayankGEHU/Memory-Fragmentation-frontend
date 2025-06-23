@@ -51,6 +51,7 @@
 
 .deploy-button:hover {
   transform: scale(1.05);
+  color: white;
 }
 
 .template-cards {

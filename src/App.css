@@ -271,3 +271,22 @@
   margin-top: 89px;
   margin-bottom: 35px;
 }
+
+
+.memory-page-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  padding: 0 16px;
+}
+
+.memory-flowchart {
+  width: 100%;
+      max-width: 706px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+}
